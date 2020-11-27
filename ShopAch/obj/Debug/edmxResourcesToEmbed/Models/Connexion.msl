@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbShoppingModelStoreContainer" CdmEntityContainer="DbShoppingEntities">
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="DbShoppingModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Id_Product" ColumnName="Id_Product" />
+          <ScalarProperty Name="Name_Product" ColumnName="Name_Product" />
+          <ScalarProperty Name="PriceProduct" ColumnName="PriceProduct" />
+          <ScalarProperty Name="PicProduct" ColumnName="PicProduct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DbShoppingModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id_User" ColumnName="Id_User" />
+          <ScalarProperty Name="FirstName_User" ColumnName="FirstName_User" />
+          <ScalarProperty Name="LastName_User" ColumnName="LastName_User" />
+          <ScalarProperty Name="Adresse_User" ColumnName="Adresse_User" />
+          <ScalarProperty Name="Email_User" ColumnName="Email_User" />
+          <ScalarProperty Name="Password_User" ColumnName="Password_User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
